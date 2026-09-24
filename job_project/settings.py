@@ -42,8 +42,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # PACKAGES
+    "django_extensions",
+
     # APPS
     'vacancies.apps.VacanciesConfig',
+    'accounts.apps.AccountsConfig',
 
 ]
 
